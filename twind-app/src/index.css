@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl text-purple-900;
+  }
+
+  h2, dt {
+    @apply text-xl text-purple-900 mb-4;
+  }
+}
+
+@layer components {
+  .item-list {
+    @apply flex flex-col flex-wrap justify-between mt-8 md:flex-row;
+  }
+}
